@@ -1,0 +1,95 @@
+.FS_Con {
+    position: relative;
+}
+
+.FS_title {
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 85px;
+    
+}
+
+.FS_cards_Con {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: var(--color-light);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FS_cards {
+    max-width: 25%;
+    max-height: 30%;
+    background-color: var(--color-1);
+    border: 2px solid var(--color-black);
+    padding: 25px;
+    flex-wrap: nowrap;
+}
+
+.FS_Images {
+    width: 70px;
+    height: 70px;
+}
+
+
+.FS_cards:hover {
+    background-color: var(--color-b);
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .FS_cards_Con {
+        flex-direction: column;
+    }
+
+    .FS_cards {
+        max-width: 100%;
+        max-height: 30%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .FS_cards_Con {
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+    .FS_cards {
+        max-width: 50%;
+        max-height: 30%;
+    }
+}
+
+/* Medium devices (landscape tablets, 769px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .FS_cards_Con {
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+    .FS_cards {
+        max-width: 50%;
+        max-height: 30%;
+    }
+}
+
+/* Large devices (laptops/desktops, 993px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Your CSS rules for large screens go here */
+}
+
+/* Extra large devices (large laptops and desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+    /* Your CSS rules for extra large screens go here */
+}

@@ -1,0 +1,6 @@
+#dropdown-basic-button{
+    background-color: var(--color-1);
+    display: flex;
+    position: absolute;
+    color: var(--color-black);
+}

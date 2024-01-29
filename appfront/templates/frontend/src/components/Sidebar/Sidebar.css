@@ -1,0 +1,139 @@
+.side_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    max-width: 250px;
+    background-color: var(--color-1);
+    padding: 20px;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.side_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--color-1);
+    overflow-y: auto;
+
+}
+
+#side_title {
+    font-size: 18px;
+    position: relative;
+    font-family: var(--font-base);
+    font-weight: bold;
+    color: var(--color-black);
+    background-color: var(--color-1);
+    text-transform: capitalize;
+    margin: auto;
+
+}
+
+#bar_tilte_border {
+    color: var(--color-black);
+}
+
+#side_gray_title {
+    color: gray;
+    background-color: var(--color-1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#side_threads_title {
+    color: var(--color-black);
+    background-color: var(--color-1);
+    font-family: var(--font-accent);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidebar_icons {
+    margin-right: 15px;
+    color: var(--color-a);
+    font-size: 20px;
+    font-weight: bold;
+}
+.dropdown-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+.dropdown-content {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    background-color: var(--color-b); /* Set your preferred background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+  }
+  
+  .dropdown-content ul {
+    list-style: none;
+    padding: auto;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown-content li {
+    padding: 10px;
+  }
+  .dropdown-content li:hover{
+    text-decoration: underline;
+  }
+  
+  .dropdown-content a {
+    text-decoration: none;
+    color: #333; /* Set your preferred text color */
+  }
+  
+  /* Show the dropdown when the parent is hovered */
+  .dropdown-container:hover .dropdown-content {
+    display: block;
+  }
+
+#react-icon-dropd {
+    font-size: 18px;
+    margin: 1px 2px auto auto;
+    color: var(--color-black);
+    font-size: 14px;
+}
+
+#react-icon-dropd:hover {
+    font-size: 20px;
+}
+
+.dropdown-content ul li a{
+    font-size: 16px;
+    font-family: var(--font-base);
+    color: var(--color-black);
+    
+}
+
+#promts_title-gen_link {
+    display: flex;
+    justify-content: space-between;
+
+    text-decoration: none;
+    background-color: var(--color-1);
+}
+
+#promts_title-gen_link:hover {
+    text-decoration: underline;
+    color: var(--color-white);
+}

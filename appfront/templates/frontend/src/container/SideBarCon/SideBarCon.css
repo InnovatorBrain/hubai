@@ -1,0 +1,50 @@
+.SideBarContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.sb_con {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 25%;
+    flex-wrap: nowrap;
+    justify-content: flex-start
+}
+
+.p_con {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto auto 10px auto;
+
+}
+
+.dd_con {
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    display: flex;
+    justify-content: flex-end !important;
+    margin: auto;
+}
+
+.t_models {
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 5%;
+    right: 35%;
+    display: flex;
+    justify-content: flex-end !important;
+    margin: auto;
+
+}
+
+.PB_boxes {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    margin: auto;
+    display: flex;
+}

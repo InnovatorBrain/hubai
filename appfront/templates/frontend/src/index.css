@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Poppins:wght@300;400;700&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;700&family=Quicksand&display=swap');
+
+:root {
+  --font-base: 'Poppins', sans-serif;
+  --font-accent: 'Quicksand', sans-serif;
+  --font-dancing: 'Dancing Script', cursive;
+  --color-pink: #E966A0;
+  --color-black: #2B2730;
+  --color-a: #6554AF;
+  --color-b: #9575DE;
+  /* Okies */
+  --color-white: #F8FAE5;
+  --color-2: #343541;
+  --color-1: #e7edef;
+  --color-blue: #43766C;
+  --color-black: rgb(0, 0, 0);
+
+
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

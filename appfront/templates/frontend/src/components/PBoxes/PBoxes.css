@@ -1,0 +1,41 @@
+.PBContainer{
+    position: absolute;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.PB_Chat_Document{
+    display: block;
+    width: 250px;
+    height: 70px;
+    background-color: var(--color-1);
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid var(--color-black);
+    border-radius: 8px;
+}
+.PB_Chat_Link_id{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin:auto;
+    text-decoration: none;
+    color: var(--color-black);
+
+}
+.PB_Chat_Text{
+    opacity: 0.7;
+}
+.PB_Chat_Icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    
+}
