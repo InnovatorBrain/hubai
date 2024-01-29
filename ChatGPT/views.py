@@ -1,18 +1,17 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from openai import OpenAI
-
+import secrets
 
 # Models
 """TEXT-TO-TEXT"""
 
 """TEXT-TO-TEXT"""
 
-
 def index(request):
     client = OpenAI(
         # defaults to os.environ.get("OPENAI_API_KEY")
-        api_key="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",
+        api_key= secrets.OPENAI_API_KEY,
     )
 
     def display_chat_history(messages):
