@@ -15,6 +15,7 @@ import Register from "./components/Register";
 import Footer from "./components/Footer/Footer";
 import FeatureSec from "./components/FeatureSec/FeatureSec"
 import Marq from "./components/Marquee/Marq"
+import Products from "./components/Products/Products";
 
 
 import Profile from "./components/Profile";
@@ -71,7 +72,7 @@ const App = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/home"} className="nav-link">
+              <Link to={"/products"} className="nav-link">
                 Products
               </Link>
             </li>
@@ -149,6 +150,7 @@ const App = () => {
           {/* <Route exact path={""} element={<><Home /><Slides /></>} /> */}
           <Route exact path={""} element={<><Slides /> <FeatureSec /> <Prices />  <Marq /><Footer /></>} />
           <Route exact path={"/home"} element={<><Slides /> <FeatureSec /> <Prices /> <Marq /><Footer /></>} />
+          <Route exact path={"/products"} element={<><Products/></>} />
           <Route path="prices" element={<><Prices /> <Footer /> </>} />
           <Route path="playground" element={<><SideBarCon /></>} />
           <Route exact path="/login" element={<Login />} />
